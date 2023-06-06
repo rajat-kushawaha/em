@@ -13,7 +13,7 @@ import play.api.test.Helpers.*
  */
 class ExperimentManagerControllerSpec extends PlaySpec with GuiceOneAppPerTest with Injecting :
 
-  "HomeController GET" should :
+  "ExperimentManagerController GET" should :
 
     "render the index page from a new instance of controller" in :
       val controller = new ExperimentManagerController(stubControllerComponents())
