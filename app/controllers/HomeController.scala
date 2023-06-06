@@ -1,8 +1,8 @@
 package controllers
 
 import play.api.*
-import play.api.mvc.*
 import play.api.libs.json.*
+import play.api.mvc.*
 
 import javax.inject.*
 
@@ -11,6 +11,6 @@ class HomeController @Inject()(val controllerComponents: ControllerComponents) e
 
   def index(): Action[AnyContent] = Action:
     implicit request: Request[AnyContent] =>
-      Ok("Welcome to Experiment Manager")
+      Ok("Welcome to Experiment Manage")
 
 end HomeController
