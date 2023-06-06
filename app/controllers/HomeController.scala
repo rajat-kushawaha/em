@@ -11,6 +11,6 @@ class HomeController @Inject()(val controllerComponents: ControllerComponents) e
 
   def index(): Action[AnyContent] = Action:
     implicit request: Request[AnyContent] =>
-      Ok("Welcome to Experiment Manage")
+      Ok("Welcome to Experiment Manager")
 
 end HomeController
